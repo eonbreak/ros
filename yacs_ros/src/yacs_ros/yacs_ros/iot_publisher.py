@@ -12,8 +12,7 @@ class Publisher(Node):
         timer_period = 0.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
-        self.data = load(
-            open('data.json'))
+        self.data = {"test": "bruh"}
 
     def timer_callback(self):
         msg = Float32()
