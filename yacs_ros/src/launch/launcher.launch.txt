@@ -1,3 +1,0 @@
-<launch>
-	<node pkg="yacs_ros" type="iot_publisher.py" name="iot_publisher" output="screen"></node>
-</launch>
