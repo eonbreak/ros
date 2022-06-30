@@ -13,7 +13,7 @@ class Publisher(Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
         self.data = load(
-            open('/home/ubuntu/Desktop/yacs-ros/src/yacs_ros/yacs_ros/data.json'))
+            open('data.json'))
 
     def timer_callback(self):
         msg = Float32()
